@@ -88,7 +88,7 @@ define Build/Prepare
 	$(call EnsureVendoredVersion,../containerd/Makefile,containerd.installer)
 	$(call EnsureVendoredCommit,../libnetwork/Makefile,proxy.installer)
 	$(call EnsureVendoredVersion,../runc/Makefile,runc.installer)
-	$(call EnsureVendoredVersion,../tini/Makefile,tini.installer)
+	$(call EnsureVendoredCommit,../tini/Makefile,tini.installer)
 
 	# Verify CLI is the same version
 	( \
